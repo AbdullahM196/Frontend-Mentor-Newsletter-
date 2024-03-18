@@ -45,6 +45,7 @@ export default function LeftSide() {
             type="email"
             name="email"
             id="email"
+            className={`${err && "inputError"}`}
             value={email}
             onChange={(evt) => setEmail(evt.target.value)}
             placeholder="email@company.com"

@@ -103,6 +103,15 @@ body {
     padding: 20px;
     border: 1px solid var(--DarkSlateGrey);
   }
+  #email:focus {
+    border: none;
+  }
+  .inputError {
+    outline: 1px solid var(--Tomato);
+    box-shadow: 0 0 0 2px var(--Tomato);
+
+    color: var(--Tomato);
+  }
 }
 .submitBtn {
   width: 100%;
